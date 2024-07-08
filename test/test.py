@@ -1,5 +1,4 @@
 
-
 import requests
 
 file_path = r'D:\End to End Mlops using GCP\End-to-End-MLOps-Project-with-GCP\eight.png'

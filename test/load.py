@@ -6,7 +6,8 @@ from tensorflow import keras
 import numpy as np
 
 
-model = keras.models.load_model("D:\End to End Mlops using GCP\End-to-End-MLOps-Project-with-GCP/nn.h5")
+# model = keras.models.load_model("../nn.h5")
+model = keras.models.load_model("nn.h5")
 
 # load the image
 from PIL import Image
@@ -30,3 +31,5 @@ predictions = tf.nn.softmax(predictions)
 pred0 = predictions[0]
 label0 = np.argmax(pred0)
 print(label0)
+
+

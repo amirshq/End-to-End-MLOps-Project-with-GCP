@@ -9,7 +9,7 @@ from PIL import Image
 
 from flask import Flask, request, jsonify
 
-model = keras.models.load_model("/nn.h5")
+model = keras.models.load_model("D:\End to End Mlops using GCP\End-to-End-MLOps-Project-with-GCP\nn.h5")
 
 
 def transform_image(pillow_image):
