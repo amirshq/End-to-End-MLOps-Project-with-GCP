@@ -6,7 +6,7 @@ from tensorflow import keras
 import numpy as np
 
 
-# model = keras.models.load_model("../nn.h5")
+# model = keras.models.load_model("nn.h5")
 model = keras.models.load_model("nn.h5")
 
 # load the image
